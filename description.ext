@@ -1,0 +1,19 @@
+class Params
+{
+	class StartingCredits
+  {
+    title = "Starting Credits";
+    values[] = {0, 10, 100, 1000, 9000001};
+    texts[] = {"0", "10", "100", "1000", "9000001"};
+    default = 0;
+  };
+};
+
+#include "rewards\rewardDialogColourConstants.hpp"
+#include "rewards\rewardDialogControlClasses.hpp"
+
+#include "rewards\rewardDialog.hpp"
+
+disabledAI = 1;
+respawn = 2;
+respawnDelay = 5;

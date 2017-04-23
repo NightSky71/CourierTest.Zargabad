@@ -1,0 +1,456 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"corepatch_zargabad_intro_fix",
+		"cacharacters2",
+		"caweapons_ammoboxes",
+		"CAWheeled2_VWGolf",
+		"ca_modules_silvie",
+		"cacharacters_e",
+		"ca_missions_ambientcombat"
+	};
+	addOnsAuto[]=
+	{
+		"ca_modules_silvie",
+		"cacharacters_e",
+		"ca_missions_ambientcombat",
+		"caweapons_ammoboxes",
+		"corepatch_zargabad_intro_fix"
+	};
+	randomSeed=14209389;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0;
+		year=2009;
+		day=29;
+		hour=11;
+	};
+	class Groups
+	{
+		items=9;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3878.3882,11.145232,2739.5962};
+					id=0;
+					side="LOGIC";
+					vehicle="SilvieManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3930.6387,11.025892,2759.5708};
+					id=8;
+					side="CIV";
+					vehicle="TK_CIV_Takistani05_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="Civ1";
+					synchronizations[]={10};
+				};
+			};
+		};
+		class Item2
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3929.23,11.089795,2765.8296};
+					id=9;
+					side="CIV";
+					vehicle="TK_CIV_Takistani06_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="Civ2";
+					synchronizations[]={11};
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3889.2292,11.381801,2773.3975};
+					id=10;
+					side="LOGIC";
+					vehicle="AmbientCombatManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					synchronizations[]={8};
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3892.5359,11.286209,2783.2202};
+					id=11;
+					side="LOGIC";
+					vehicle="AmbientCombatManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					synchronizations[]={9};
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3926.011,11.081146,2763.4971};
+					id=12;
+					side="CIV";
+					vehicle="TK_CIV_Takistani03_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="Civ3";
+					synchronizations[]={13};
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3882.5496,11.606074,2783.3794};
+					id=13;
+					side="LOGIC";
+					vehicle="AmbientCombatManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					synchronizations[]={12};
+				};
+			};
+		};
+		class Item7
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3924.925,11.017486,2758.499};
+					id=14;
+					side="CIV";
+					vehicle="TK_CIV_Takistani01_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="Civ4";
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3879.2646,11.562207,2773.3237};
+					id=15;
+					side="LOGIC";
+					vehicle="AmbientCombatManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					synchronizations[]={14};
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=7;
+		class Item0
+		{
+			position[]={3944.8577,11.240855,2782.7021};
+			azimut=74.039673;
+			id=1;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 1] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item1
+		{
+			position[]={3943.3452,11.233214,2781.8979};
+			azimut=74.039673;
+			id=2;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 2] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item2
+		{
+			position[]={3934.5845,11.304373,2790.0217};
+			azimut=74.039673;
+			id=3;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 3] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item3
+		{
+			position[]={3941.6194,11.225276,2781.0698};
+			azimut=74.039673;
+			id=4;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 4] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item4
+		{
+			position[]={3940.1323,11.223647,2780.3447};
+			azimut=74.039673;
+			id=5;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 5] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item5
+		{
+			position[]={3938.7239,11.224232,2779.644};
+			azimut=74.039673;
+			id=6;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 6] execVM ""tasks\supplyBox.sqf"";";
+		};
+		class Item6
+		{
+			position[]={3937.3557,11.222664,2778.8555};
+			azimut=74.039673;
+			id=7;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			init="_nul = [this, 7] execVM ""tasks\supplyBox.sqf"";";
+		};
+	};
+	class Markers
+	{
+		items=18;
+		class Item0
+		{
+			position[]={3941.2993,10.936751,2754.2549};
+			name="VehicleSpawnCiv1";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={3950.061,10.964942,2758.145};
+			name="VehicleSpawnCiv2";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={3957.5603,10.94966,2761.2881};
+			name="VehicleSpawnCiv3";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={3965.2976,10.975042,2764.3184};
+			name="VehicleSpawnCiv4";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={3946.6167,11.093915,2770.354};
+			name="Base";
+			text="Base";
+			type="Faction_INDFOR_EP1";
+		};
+		class Item5
+		{
+			position[]={2320.7563,37.678055,4542.8691};
+			name="Red_1";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={2284.0002,41.865341,5052.877};
+			name="Red_2";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={2271.6372,46.294243,5473.2158};
+			name="Red_3";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={2287.0908,79.642242,5995.5488};
+			name="Red_4";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={5562.7026,17.426636,5033.5068};
+			name="Blu_1";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={5561.915,29.22176,5458.3652};
+			name="Blu_2";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={5553.8247,19.439472,6007.5796};
+			name="Blu_3";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={5567.7021,20.203909,6416.1582};
+			name="Blu_4";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={3889.9651,11.363011,2749.7349};
+			name="Taxi_DropOff";
+			type="Empty";
+		};
+		class Item14
+		{
+			position[]={2309.0752,52.717377,6510.4126};
+			name="Red_5";
+			type="Empty";
+		};
+		class Item15
+		{
+			position[]={2584.3728,65.7491,4015.3057};
+			name="Red_6";
+			type="Empty";
+		};
+		class Item16
+		{
+			position[]={5567.3506,76.774727,4478.7832};
+			name="Blu_5";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={5194.4785,6.6011539,3966.519};
+			name="Blu_6";
+			type="Empty";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	addOnsAuto[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	randomSeed=11569217;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0;
+		year=2009;
+		day=29;
+		hour=11;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	addOnsAuto[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	randomSeed=8436564;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0;
+		year=2009;
+		day=29;
+		hour=11;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	addOnsAuto[]=
+	{
+		"corepatch_zargabad_intro_fix"
+	};
+	randomSeed=5190192;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0;
+		year=2009;
+		day=29;
+		hour=11;
+	};
+};

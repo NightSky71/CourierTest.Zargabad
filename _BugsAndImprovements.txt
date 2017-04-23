@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------
+************************** BUG & IMPROVEMENT LIST *******************************
+---------------------------------------------------------------------------------
+	Category
+		B - Bug
+		I - Improvement/New Feature
+		
+	Weight
+		H - High
+		M - Medium
+		L - Low
+		
+	Author
+		G - George
+		W - Will
+		
+	Type
+		Rewards
+		Tasks
+		Init
+		Textures
+		etc..
+	
+---------------------------------------------------------------------------------
+
+CURRENT BUGS/IMPROVEMENTs/NEW FEATURES
+
+Cat	Wgt	Author	Type		Description
+I	H	G		Rewards		Reward menu to provides a means to repair your vehicle
+I   M   G   	Vehicle		Petrol stations to charge a player for using them
+I   M   W   	Environment	Implementation of agents
+
+FIXED BUGS & IMPLEMENTED IMPROVEMENTS/NEW FEATURES
+Cat	Wgt	Author	Type		Description
+I   L   G       Vehicle		If your vehicle gets destroyed you can call a taxi service to come and collect you.
+I   M	G		Tasks		The ability to Reroll tasks with cooldown/cost
+B   H	G		Taxi		Reward menu has no cooldown for the number of taxis that can be spawned
+B	H	G		Vehicle		Buying vehicles deletes your old vehicle no matter where you are leaving the player stranded | FIXED: Player must be within 100m of the base marker
+B	L	G		Vehicle		Sitting in the passenger seat of your own vehicle still results in being kicked out of it
+I   M	W		Environment	Implementation of minefields
